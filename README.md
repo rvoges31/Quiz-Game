@@ -1,6 +1,10 @@
 # Quiz-Game
 Repo: https://github.com/rvoges31/Quiz-Game/
-HTML:
+HTML: https://rvoges31.github.io/Quiz-Game/
+
+I found this extremely challenging and managed to get a working code that however sometimes fails, i will continue working to correct the errors in the game.
+
+Challenge:
 
 AS A coding bootcamp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
