@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale=1.0>
+        <link rel="stylesheet" href="Assets/style.css" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Computer Coding Trivia Quiz</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Header to show high scores on left and timer on the right-->
+            <span>High Scores</span>
+            <span class="time">Time left:</span><span id="timer"> 0</span>
+            <div class="container">
+                <!--Empty Row for spacing-->
+                <div class="row"></div>
+                <div class="row">
+                    <!-- Empty column for spacing-->
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                        <div id="start">
+                            <button id="start-btn">Start</button>
+                        </div>
+                        <div id="begin" class="hidden">
+                            <div id="questions"></div>
+                            <br>
+                            <div id="choices"></div>
+                            <br>
+                            <!--show "correct"or "wrong"after answer-->
+                            <div id="status"></div>
+                        </div>
+                        <div id="highscore" class="hidden">
+                            <!--Insert Name for highscore-->
+                            <div id="name" class="hidden">
+                                <input type="text" id="initial-name" />
+                                <button id="add-name">Add Name</button>
+                            </div>
+                            <div id="score" class="hidden">
+                                <button id="clear">Clear Score</button>
+                                <button id="back">Go back</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="Assets/questions.js"></script>
+        <script src="Assets/script.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    </body>
